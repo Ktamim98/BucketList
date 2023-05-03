@@ -13,15 +13,15 @@ struct Location: Identifiable, Codable, Equatable{
    var id: UUID
     var name: String
     var description: String
-    let latitued: Double
-    let longiTued: Double
+    let latitude: Double
+    let longitude: Double
     
     
     var cordinate: CLLocationCoordinate2D{
-        CLLocationCoordinate2D(latitude: latitued, longitude: longiTued)
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
     
-    static let example = Location(id: UUID(), name: "Dhaka", description: "Gotham with no BatMan", latitued: 23.8103, longiTued: 90.4125)
+    static let example = Location(id: UUID(), name: "Dhaka", description: "Gotham with no BatMan", latitude: 23.8103, longitude: 90.4125)
     
     
     static func ==(lhs: Location, rhs: Location) -> Bool{

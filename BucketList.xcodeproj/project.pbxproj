@@ -13,6 +13,9 @@
 		3FFB73A92A0112C10055E9B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB73A82A0112C10055E9B5 /* Preview Assets.xcassets */; };
 		3FFB73B02A01373B0055E9B5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB73AF2A01373B0055E9B5 /* Location.swift */; };
 		3FFB73B22A0199F50055E9B5 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB73B12A0199F50055E9B5 /* EditView.swift */; };
+		3FFB73B42A0270560055E9B5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB73B32A0270560055E9B5 /* Result.swift */; };
+		3FFB73B62A028F0D0055E9B5 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB73B52A028F0D0055E9B5 /* ContentView-ViewModel.swift */; };
+		3FFB73BA2A02940A0055E9B5 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB73B92A02940A0055E9B5 /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		3FFB73A82A0112C10055E9B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FFB73AF2A01373B0055E9B5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3FFB73B12A0199F50055E9B5 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		3FFB73B32A0270560055E9B5 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		3FFB73B52A028F0D0055E9B5 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		3FFB73B92A02940A0055E9B5 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				3FFB73A12A0112C10055E9B5 /* BucketListApp.swift */,
 				3FFB73A32A0112C10055E9B5 /* ContentView.swift */,
 				3FFB73B12A0199F50055E9B5 /* EditView.swift */,
+				3FFB73B92A02940A0055E9B5 /* FileManager-DocumentsDirectory.swift */,
+				3FFB73B52A028F0D0055E9B5 /* ContentView-ViewModel.swift */,
+				3FFB73B32A0270560055E9B5 /* Result.swift */,
 				3FFB73AF2A01373B0055E9B5 /* Location.swift */,
 				3FFB73A52A0112C10055E9B5 /* Assets.xcassets */,
 				3FFB73A72A0112C10055E9B5 /* Preview Content */,
@@ -144,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFB73A42A0112C10055E9B5 /* ContentView.swift in Sources */,
+				3FFB73BA2A02940A0055E9B5 /* FileManager-DocumentsDirectory.swift in Sources */,
+				3FFB73B62A028F0D0055E9B5 /* ContentView-ViewModel.swift in Sources */,
+				3FFB73B42A0270560055E9B5 /* Result.swift in Sources */,
 				3FFB73B02A01373B0055E9B5 /* Location.swift in Sources */,
 				3FFB73B22A0199F50055E9B5 /* EditView.swift in Sources */,
 				3FFB73A22A0112C10055E9B5 /* BucketListApp.swift in Sources */,
@@ -277,7 +289,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "we want to unlock your data";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please Authenticate yourself to unlock";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,7 +318,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "we want to unlock your data";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please Authenticate yourself to unlock";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
