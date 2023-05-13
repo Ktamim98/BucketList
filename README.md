@@ -1,5 +1,8 @@
 # BucketList
  BucketList is a simple iOS app that allows users to save locations and view nearby Wikipedia articles. This app was built using Swift and SwiftUI and utilizes various iOS frameworks such as MapKit, LocalAuthentication, and URLSession.
+ 
+ 
+ https://github.com/Ktamim98/BucketList/assets/124142522/e0179b12-b295-4501-b961-e39e17d05515
 
 ## Features
 - Users can save locations to a list that persists across app sessions.
